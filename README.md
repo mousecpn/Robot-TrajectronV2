@@ -1,5 +1,3 @@
-# Robot-TrajectronV2
-
 ![logo](asset/RT_logo.png)
 
 The official implementation of Robot TrajectronV2.
