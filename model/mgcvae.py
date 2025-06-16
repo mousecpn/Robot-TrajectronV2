@@ -32,6 +32,7 @@ class MultimodalGenerativeCVAE(nn.Module):
         self.ph = self.hyperparams['prediction_horizon']
         self.state = self.hyperparams['state']
         self.pred_state = self.hyperparams['pred_state']
+        self.rl = self.hyperparams['rl']
         self.state_length = int(np.sum([len(entity_dims) for entity_dims in self.state.values()]))
         self.context_types = ['goals', 'obstacles']
 
@@ -1096,8 +1097,7 @@ class MultimodalGenerativeCVAE(nn.Module):
         #     obs = context['obstacles']
         #     col_loss = self.collision_regularization(samples_trajectories, obs)
         ############# obstacle avoidance loss ###############
-        RL = False
-        if RL == True:
+        if self.rl == True:
             if self.total_it % self.target_update_interval == 0:
                 for param, target_param in zip(self.critic.parameters(), self.critic_target.parameters()):
                     target_param.data.copy_(self.tau * param.data + (1 - self.tau) * target_param.data)

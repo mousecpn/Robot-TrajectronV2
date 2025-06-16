@@ -42,6 +42,7 @@ def main():
     hyperparams['batch_size'] = args.batch_size
     hyperparams['k_eval'] = args.k_eval
     hyperparams['map_encoding'] = True
+    hyperparams['rl'] = args.rl
     best_ade = 1000
     dim = 2
 

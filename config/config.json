@@ -54,7 +54,7 @@
     "pred_state": {
         "velocity": ["x", "y"]
         }, 
-    "log_histograms": false, 
-    "use_map_encoding": false, 
-    "augment": true
+    "map_encoding": true, 
+    "augment": true,
+    "rl": true
     }

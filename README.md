@@ -1,6 +1,5 @@
 ![logo](asset/RT_logo.png)
 
-The official implementation of Robot TrajectronV2.
 
 ### Environment
 
@@ -14,10 +13,16 @@ The official implementation of Robot TrajectronV2.
  - torch==2.0.0
  - CUDA==11.7
  - torchvision==0.15.1
+ - pybullet
+
 
 ### Dataset
 
-To be released
+```
+$ ./data_collection_dist.sh NUM_PROCS TOTAL_DATA DATA_DIR
+```
+
+
 
 ### Train
 
@@ -25,15 +30,18 @@ To be released
 $ python main.py --eval_every 10 --vis_every 10 --preprocess_workers 0 --batch_size 256 --log_dir experiments/RobotTrajectron/models --train_epochs 100 --conf config/config.json --data_path /path/to/dataset
 ```
 
+
 ### Test
 ```
-$ python evalute.py --batch_size 256 --conf config/test_config.json --data_path /path/to/dataset --checkpoint /path/to/checkpoint
+$ python evalute.py --batch_size 256 --conf config/config_test.json --data_path /path/to/dataset --checkpoint /path/to/checkpoint
 ```
+
 
 ### Visualization
 ```
-$ python visualization.py --conf config/test_config.json --data_path /path/to/dataset --checkpoint /path/to/checkpoint
+$ python visualization.py --conf config/config_test.json --data_path /path/to/dataset --checkpoint /path/to/checkpoint
 ```
+
 
 ### Shared Control
 Shared control code will be available soon.

@@ -63,7 +63,7 @@
     "pred_state": {
         "velocity": ["x", "y"]
         }, 
-    "log_histograms": false, 
+    "map_encoding": true, 
     "augment": true, 
-    "override_attention_radius": []
+    "rl": true
     }

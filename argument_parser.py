@@ -4,7 +4,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--conf",
                     help="path to json config file for hyperparameters",
                     type=str,
-                    default='config/config.json')
+                    default='config/config_test.json')
 
 parser.add_argument("--debug",
                     help="disable all disk writing processes.",
@@ -25,7 +25,7 @@ parser.add_argument("--data_path",
 parser.add_argument("--checkpoint",
                     help="the checkpoint file",
                     type=str,
-                    default=None)
+                    default="checkpoints/Exp42_maxent_autoalpha_93.pth")
 
 
 parser.add_argument('--device',
@@ -62,6 +62,11 @@ parser.add_argument('--eval_every',
 
 parser.add_argument('--map_encoding',
                     help='whether to use map encoding',
+                    type=bool,
+                    default=True)
+
+parser.add_argument('--rl',
+                    help='whether to use rl',
                     type=bool,
                     default=True)
 

@@ -51,14 +51,14 @@ def load_data_cartesian(path, target_frequency, min_length, test_size=0.3, dim=2
     testData = []
     with open(path,'rb') as f:
         data = pickle.load(f)
-    ee_log = data["data"]
+    ee_log = data["data"][:100]
     frequency = data["frequency"]
     try:
-        goals_list = data['goals']
+        goals_list = data['goals'][:100]
     except:
         goals_list = None
     try:
-        obstacles_list = data['obstacles']
+        obstacles_list = data['obstacles'][:100]
     except:
         obstacles_list = None
     dt = 1./target_frequency
