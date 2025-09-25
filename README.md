@@ -1,5 +1,6 @@
 ![logo](asset/RT_logo.png)
 
+[[Arxiv](https://arxiv.org/abs/2509.19954)]
 
 ### Environment
 
@@ -44,5 +45,4 @@ $ python visualization.py --conf config/config_test.json --data_path /path/to/da
 
 
 ### Shared Control
-Shared control code will be available soon.
-
+Please see: https://github.com/mousecpn/RTV2_ws

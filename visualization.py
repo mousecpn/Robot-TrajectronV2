@@ -50,7 +50,7 @@ def main():
     trajectron.model.to(args.device)
     trajectron.model.eval()
     count = 1
-    os.makedirs('gif_images', exist_ok=True)
+    # os.makedirs('gif_images', exist_ok=True)
     filenames = []
     for l in range(len(testData)):
         data = np.array(testData[l])

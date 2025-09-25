@@ -52,6 +52,9 @@ def prediction_output_to_trajectories(prediction_output_dict,
     return output_dict, histories_dict, futures_dict
 
 def compute_ade(predicted_trajs, gt_traj):
+    """
+    trajs are all in logmap format
+    """
     error = np.linalg.norm(predicted_trajs - gt_traj, axis=-1)
     ade = np.mean(error, axis=-1)
     return ade#.flatten()
