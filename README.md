@@ -34,7 +34,7 @@ $ python main.py --eval_every 10 --vis_every 10 --preprocess_workers 0 --batch_s
 
 ### Test
 ```
-$ python evalute.py --batch_size 256 --conf config/config_test.json --data_path /path/to/dataset --checkpoint /path/to/checkpoint
+$ python evaluate.py --batch_size 256 --conf config/config_test.json --data_path /path/to/dataset --checkpoint /path/to/checkpoint
 ```
 
 
