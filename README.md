@@ -1,4 +1,4 @@
-![logo](asset/RT_logo.png)
+https://github.com/user-attachments/assets/e3f43c4f-35a2-40cf-834c-3f14ac41de7a
 
 [[Arxiv](https://arxiv.org/abs/2509.19954)] [[Project page](https://mousecpn.github.io/RTV2_page/)]
 
