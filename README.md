@@ -2,7 +2,7 @@
 
 [[Arxiv](https://arxiv.org/abs/2509.19954)] [[Project page](https://mousecpn.github.io/RTV2_page/)]
 
-### Environment
+### 🔧 Environment
 
  - numpy==1.24.4
  - tqdm==4.45.0
@@ -17,7 +17,7 @@
  - pybullet
 
 
-### Dataset
+### 📊 Dataset
 
 ```
 $ ./data_collection_dist.sh NUM_PROCS TOTAL_DATA DATA_DIR
@@ -25,24 +25,24 @@ $ ./data_collection_dist.sh NUM_PROCS TOTAL_DATA DATA_DIR
 
 
 
-### Train
+### 📈 Train
 
 ```
 $ python main.py --eval_every 10 --vis_every 10 --preprocess_workers 0 --batch_size 256 --log_dir experiments/RobotTrajectron/models --train_epochs 100 --conf config/config.json --data_path /path/to/dataset
 ```
 
 
-### Test
+### 🎯 Test
 ```
 $ python evaluate.py --batch_size 256 --conf config/config_test.json --data_path /path/to/dataset --checkpoint /path/to/checkpoint
 ```
 
 
-### Visualization
+### 👀 Visualization
 ```
 $ python visualization.py --conf config/config_test.json --data_path /path/to/dataset --checkpoint /path/to/checkpoint
 ```
 
 
-### Shared Control
+### 🕹️ Shared Control
 Please see: https://github.com/mousecpn/RTV2_ws
