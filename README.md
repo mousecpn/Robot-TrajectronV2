@@ -1,8 +1,6 @@
 ![logo](asset/RT_logo.png)
 
-<center>
  [[Arxiv](https://arxiv.org/abs/2509.19954)] [[Project page](https://mousecpn.github.io/RTV2_page/)]
-</center>
 
 ### 🔧 Environment
 
