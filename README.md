@@ -2,6 +2,10 @@
 
  [[Arxiv](https://arxiv.org/abs/2509.19954)] [[Project page](https://mousecpn.github.io/RTV2_page/)]
 
+
+### ✨ News
+- 2025.10.24: Our Robot Trajectron V2 wins Best Poster Award 3rd place in 2025 IROS SASA workshop
+
 ### 🔧 Environment
 
  - numpy==1.24.4
