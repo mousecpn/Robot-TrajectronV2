@@ -535,7 +535,7 @@ class MultimodalGenerativeCVAE(nn.Module):
             h_state = cell(input_, state)
             log_pi_t, mu_t, log_sigma_t, corr_t = self.project_to_GMM_params(h_state)
 
-            self.state_cache.append(state)
+            self.state_cache.append(h_state)
             
             if self.pred_state_length == 2:
                 gmm = GMM2D(log_pi_t, mu_t, log_sigma_t, corr_t[...,:1])
