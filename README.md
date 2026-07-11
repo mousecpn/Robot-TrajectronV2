@@ -5,6 +5,7 @@
 
 ### ✨ News
 - 2025.10.24: Our Robot Trajectron V2 wins Best Poster Award 3rd place in 2025 IROS SASA workshop
+- 2026.07.11: We release our new work [Robot Trajectron V3](https://github.com/mousecpn/Robot-TrajectronV3)!
 
 ### 🔧 Environment
 
