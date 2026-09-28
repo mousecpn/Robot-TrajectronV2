@@ -29,6 +29,8 @@
 $ ./data_collection_dist.sh NUM_PROCS TOTAL_DATA DATA_DIR
 ```
 
+Or you can download the dataset through this link: https://kuleuven-my.sharepoint.com/:u:/g/personal/pinhao_song_kuleuven_be/IQD0UaMYrbedRqC80x7rqg_7AUQq6sgA4ALUztQzNTrM05A?e=4HW2MA
+
 
 
 ### 📈 Train
