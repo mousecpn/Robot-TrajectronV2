@@ -4,9 +4,10 @@
 
 
 ### ✨ News
+- 2026.10.02: Our Robot Trajectron V3 won the Best Paper Award in the 4th Workshop on Nonverbal Cues for Human-Robot Cooperative Intelligence at IROS 2026.
 - 2026.08.19: Our Robot Trajectron V2 is accepted by IJRR.
 - 2026.07.11: We release our new work [Robot Trajectron V3](https://github.com/mousecpn/Robot-TrajectronV3)!
-- 2025.10.24: Our Robot Trajectron V2 wins Best Poster Award 3rd place in 2025 IROS SASA workshop.
+- 2025.10.24: Our Robot Trajectron V2 won Best Poster Award 3rd place in 2025 IROS SASA workshop.
 
 ### 🔧 Environment
 
