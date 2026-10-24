@@ -1,6 +1,6 @@
 ![logo](asset/RT_logo.png)
 
- [[Arxiv](https://arxiv.org/abs/2509.19954)] [[Project page](https://mousecpn.github.io/RTV2_page/)]
+ [[Arxiv](https://arxiv.org/abs/2509.19954)] [[Project page](https://mousecpn.github.io/RTV2_page/)] [[Paper](https://journals.sagepub.com/eprint/WJUQWZWERQPHBHZ7GKEB/full)]
 
 
 ### ✨ News
